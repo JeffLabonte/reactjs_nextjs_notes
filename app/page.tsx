@@ -30,9 +30,9 @@ export default function Page() {
             src="/hero-desktop.png"
             width={1000}
             height={760}
-            className="hidden md:block"
+            className="hidden md:block" 
             alt="Screenshots of the dashboard project showing desktop version"
-          />
+          /> {/* hidden, hides it when mobilde, show on block aka Desktop */}
           {/* Add Hero Images Here */}
         </div>
       </div>
