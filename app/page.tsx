@@ -32,6 +32,13 @@ export default function Page() {
             height={760}
             className="hidden md:block" 
             alt="Screenshots of the dashboard project showing desktop version"
+          /> {/* hidden, hides it when mobilde, show on block aka Desktop (md -> Medium) */}
+          <Image
+            src="/hero-mobile.png"
+            width={560}
+            height={620}
+            className="block md:hidden" 
+            alt="Screenshots of the dashboard project showing desktop version"
           /> {/* hidden, hides it when mobilde, show on block aka Desktop */}
           {/* Add Hero Images Here */}
         </div>
